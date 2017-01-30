@@ -1,0 +1,6 @@
+{
+	"port": 8055,
+	"bodyLimit": "100kb",
+	"corsHeaders": ["Link"],
+	"dir": "C:\\projetos-2017\\socialnetwork\\"
+}
