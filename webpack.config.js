@@ -1,10 +1,10 @@
 module.exports = {
 
-    entry: './web/app/lib/app.js',
+    entry: './web/app/lib/index.js',
 
     output: {
 
-        path: './src/public/js/',
+        path: './src/app/public/js/',
 
         filename: 'app.js'
 
@@ -18,7 +18,7 @@ module.exports = {
 
             exclude: /node_modules/,
 
-            loader: 'babel',
+            loader: 'babel-loader',
 
             query: {
 
